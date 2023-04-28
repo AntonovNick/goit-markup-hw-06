@@ -700,6 +700,7 @@ img {
   position: absolute;
   width: 408px;
   height: 576px;
+  padding: 72px 24px 24px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
@@ -737,7 +738,7 @@ img {
 }
 
 .modal-name {
-  margin: 72px 24px 16px 24px;
+  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -747,12 +748,20 @@ img {
 }
 
 .modal-form {
-  padding-right: 24px;
-  padding-left: 24px;
 }
 
 .form-area {
   margin-bottom: 8px;
+}
+
+.modal-label {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--light-slate);
 }
 
 .form-area label {
